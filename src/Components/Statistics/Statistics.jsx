@@ -6,8 +6,8 @@ export const Statistics = ({good, neutral, bad, total, positivePercentage}) => {
             <Statistic>Good: {good}</Statistic>
             <Statistic>Neutral: {neutral}</Statistic>
             <Statistic>Bad: {bad}</Statistic>
-            <Statistic>Total: {total()}</Statistic>
-            <Statistic>Positive feedback: {positivePercentage()}%</Statistic>
+            <Statistic higlight>Total: {total()}</Statistic>
+            <Statistic higlight>Positive feedback: {positivePercentage()}%</Statistic>
         </StatisticPannel>
     )
 }

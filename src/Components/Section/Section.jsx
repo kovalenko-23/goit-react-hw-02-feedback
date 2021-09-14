@@ -1,7 +1,8 @@
-import { Wrapper } from './Section.styled';
+import { Wrapper, Title } from './Section.styled';
 
 export const Section = ({title, children}) => {
     return (
-        <Wrapper>{title}{children}</Wrapper>
+        <Wrapper><Title>{title}</Title>{children}</Wrapper>
     )
 }
+
