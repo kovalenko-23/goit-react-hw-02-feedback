@@ -1,6 +1,6 @@
 import styled from "@emotion/styled"
 
-const Message = styled.p`
+export const Message = styled.p`
     display: inline-flex;
     font-weight: bold;
     padding: 5px;
@@ -8,9 +8,3 @@ const Message = styled.p`
     border-radius: 3px;
     background-color: tomato;
 `
-
-export const Notification = ({ message }) => {
-    return (
-        <Message>{message}</Message>
-    )
-}
