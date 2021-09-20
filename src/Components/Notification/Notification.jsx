@@ -8,6 +8,6 @@ export const Notification = ({ message }) => {
     )
 }
 
-Notification.propType = {
+Notification.propTypes = {
     message: PropTypes.string,
 }
